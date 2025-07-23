@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <section id='hero' className='relative overflow-hidden' >
         <div className='absolute top-0 left-0 z-10 ' >
-            <img src='/images/bg.png' alt='background' className='' />
+            <img src='/public/images/bg.png' alt='background' className='' />
         </div>
 
         <div className='hero-layout'>
@@ -45,7 +45,7 @@ const Hero = () => {
                         <h1>Into Real Projects</h1>
                         <h1>That Deliever Results</h1>
                     </div>
-                        <p className='text-white-50 md:text-xl relative z-10 pointer-events-none w-1/2'>
+                        <p className='text-white-50 md:text-xl md:w-1/2 relative z-10 pointer-events-none '>
                             Hi, I am Rahul, a developer, digital marketer, e-commerce manager and SMM based in India with a passion for creating engaging and user-friendly digital experiences.
                         </p>
                         <Button
@@ -63,6 +63,7 @@ const Hero = () => {
             </figure>
         </div>
         <AnimatedCounter />
+        
 
     </section>
   )
