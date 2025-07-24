@@ -4,6 +4,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience';
 import { words } from '../constants';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
+import bg from '/public/images/bg.png';
 
 const Hero = () => {
   useGSAP(() => {
@@ -17,7 +18,7 @@ const Hero = () => {
   return (
     <section id='hero' className='relative overflow-hidden' >
         <div className='absolute top-0 left-0 z-10 ' >
-            <img src='/public/images/bg.png' alt='background' />
+            <img src={bg} alt='background' />
         </div>
 
         <div className='hero-layout'>
